@@ -3,3 +3,9 @@
 * {
     font-family: "Hind Vadodara", sans-serif;
 }
+
+@media (min-width:1400px) {
+    .meeting-image {
+        @apply -mr-11
+    }
+}

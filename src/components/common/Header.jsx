@@ -33,18 +33,18 @@ const Header = () => {
                         ))}
                         <div className="flex items-center gap-6 sm:hidden">
                             {SOCIAL_MEDIA_DATA_LIST.map((items, index) => (
-                                <a key={index} href={items.url} target='_blank' rel="noreferrer" className='w-fit relative'>
+                                <a key={index} href={items.url} target='_blank' rel="noreferrer" className='w-fit relative group'>
                                     <Icon iconName={items.icon} className='top-1/2 left-1/2 absolute -translate-x-1/2 -translate-y-1/2 z-10' />
                                     <Icon iconName='brownEllipse' />
                                 </a>
                             ))}
                         </div>
                     </div>
-                    <a href="/" className="font-playfair text-2xl leading-7 tracking-[0.01em] font-bold lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-1/2 lg:-translate-y-1/2">Dream Agency</a>
+                    <a href="/" className="font-playfair text-2xl leading-7 text-off-black tracking-[0.01em] font-bold lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-1/2 lg:-translate-y-1/2">Dream Agency</a>
                     <div className="flex gap-6 items-center">
                         <div className="sm:flex items-center gap-6 hidden">
                             {SOCIAL_MEDIA_DATA_LIST.map((items, index) => (
-                                <a key={index} href={items.url} target='_blank' rel="noreferrer" className='w-fit relative'>
+                                <a key={index} href={items.url} target='_blank' rel="noreferrer" className='w-fit relative group'>
                                     <Icon iconName={items.icon} className='top-1/2 left-1/2 absolute -translate-x-1/2 -translate-y-1/2 z-10' />
                                     <Icon iconName='brownEllipse' />
                                 </a>
