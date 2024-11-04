@@ -1,4 +1,5 @@
 import './App.css';
+import PreLoader from './components/common/PreLoader';
 import ScrollToTop from './components/common/ScrollToTop';
 import AboutUs from './components/home/AboutUs';
 import GetInTouch from './components/home/GetInTouch';
@@ -17,6 +18,7 @@ function App() {
       <OurTestimonials />
       <GetInTouch />
       <ScrollToTop />
+      <PreLoader />
     </div>
   );
 }

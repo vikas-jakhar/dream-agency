@@ -16,7 +16,7 @@ const WhatWeDo = () => {
                     <Heading className='text-center'>What We Do</Heading>
                     <SecondHeading className='text-center'>For Your <span>Business</span></SecondHeading>
                 </div>
-                <div className="flex items-center w-fit gap-3.5 mx-auto mt-5 relative z-10 lg:absolute lg:bottom-24 lg:!ml-5 lg:left-[calc((100vw-1024px)/2)] xl:left-[calc((100vw-1340px)/2+90px)]">
+                <div className="flex items-center w-fit gap-3.5 mx-auto mt-5 relative z-10 lg:absolute lg:bottom-24 lg:!ml-5 lg:left-[calc((100vw-1024px)/2)] xl:left-[calc((100vw-1340px)/2+90px)] custom-left">
                     <Icon iconName='arrow' className='prevButton cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
                     <Icon iconName='arrow' className='nextButton cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>

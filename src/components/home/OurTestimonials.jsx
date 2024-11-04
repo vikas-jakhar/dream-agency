@@ -6,7 +6,7 @@ import Icon from '../common/Icons'
 const OurTestimonials = () => {
     return (
         <section className='lg:py-16 py-14'>
-            <div className="container pt-10 sm:pt-8 lg:pt-16 pb-3 sm:pb-7">
+            <div className="container pt-10 sm:pt-8 lg:-mt-1.5 lg:pt-0 pb-3 sm:pb-7">
                 <Heading className='text-center'>Our Testimonials</Heading>
                 <SecondHeading className='text-center'>What Our Clients Are <span>Saying</span></SecondHeading>
                 <div className="flex justify-center md:flex-row flex-col items-center md:gap-6 lg:gap-12 xl:gap-[69px] pt-4 md:pt-9">

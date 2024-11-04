@@ -9,3 +9,17 @@
         @apply -mr-11
     }
 }
+
+@media (min-width:1920px) {
+    .custom-ml {
+        @apply !ml-[calc((1920px-1340px)/2+218px)]
+    }
+
+    .custom-left {
+        @apply !left-[calc((1920px-1340px)/2+90px)]
+    }
+
+    .work-custom-left {
+        @apply !left-[calc((1920px-1340px)/2+142px)]
+    }
+}
