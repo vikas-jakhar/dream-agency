@@ -25,7 +25,7 @@ const SecondHeading = ({
         <h2
             {...props}
             style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }}
-            className={`${className} font-light leading-10 lg:leading-custom-xl -tracking-[0.01em]`}
+            className={`${className} font-light leading-6 sm:leading-7 md:leading-9 lg:leading-custom-xl -tracking-[0.01em]`}
         >
             {styledChildren}
         </h2>
