@@ -1,4 +1,4 @@
-const Icon = (props) => {
+const Icon = ({ iconName = '', className = '', ...props }) => {
     const IconList = {
         facebook: (
             <svg width="11" height="21" viewBox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,11 +38,16 @@ const Icon = (props) => {
                 </defs>
             </svg>
         ),
+        brownEllipse: (
+            <svg width="46" height="49" viewBox="0 0 46 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M40.735 35.3674C37.8088 40.3349 32.7554 44.2964 27.1726 46.2689C21.5912 48.2409 15.596 48.1894 10.724 45.3196C5.85214 42.4498 2.90068 37.2311 1.91962 31.3935C0.938308 25.5544 1.95326 19.2139 4.87937 14.2465C7.80548 9.27901 12.859 5.31748 18.4418 3.34498C24.0232 1.37298 30.0184 1.42444 34.8903 4.29427C39.7622 7.16409 42.7136 12.3827 43.6947 18.2204C44.676 24.0595 43.6611 30.4 40.735 35.3674Z" stroke="#331B3B" stroke-opacity="0.64" stroke-width="2" />
+            </svg>
+        ),
     };
 
     return (
-        <span className={`flex ${props.className}`}>
-            {props.iconName && IconList[props.iconName]}
+        <span className={`flex ${className}`}>
+            {iconName && IconList[iconName]}
         </span>
     );
 };
