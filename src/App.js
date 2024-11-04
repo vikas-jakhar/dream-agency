@@ -3,6 +3,7 @@ import ScrollToTop from './components/common/ScrollToTop';
 import AboutUs from './components/home/AboutUs';
 import Hero from './components/home/Hero';
 import OurRecentWork from './components/home/OurRecentWork';
+import OurTestimonials from './components/home/OurTestimonials';
 import WhatWeDo from './components/home/WhatWeDo';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <WhatWeDo />
       <AboutUs />
       <OurRecentWork />
+      <OurTestimonials />
       <ScrollToTop />
     </div>
   );

@@ -4,18 +4,22 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
-import { WHAT_WE_DO_DATA_LIST } from '../common/Helper';
+import { OUR_RECENT_WORK_DATA_LIST } from '../common/Helper';
 import Icon from '../common/Icons';
+import Paragraph from '../common/Paragraph';
 
 const OurRecentWork = () => {
     return (
-        <section className='relative pt-20 sm:pt-24'>
-            <div className="max-w-[1920px] mx-auto w-full relative lg:pt-24 mt-1.5">
-                <div className="container relative z-10">
-                    <Heading className='text-center'>What We Do</Heading>
-                    <SecondHeading className='text-center'>For Your <span>Business</span></SecondHeading>
+        <section className='relative pt-24 lg:pt-10'>
+            <div className="max-w-[1920px] pt-24 lg:pt-0 mx-auto w-full relative">
+                <div className="container mt-3 relative z-10 flex-col lg:flex-row flex items-center justify-between">
+                    <div className="flex flex-col">
+                        <Heading className='text-center lg:text-left'>Our Recent Work</Heading>
+                        <SecondHeading className='text-center lg:text-left'>By Our <span>Experts</span></SecondHeading>
+                    </div>
+                    <Paragraph className='max-w-[515px] w-full text-center lg:text-left mt-2 lg:mt-0'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
                 </div>
-                <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+143px)] xl:!ml-[calc((100vw-1340px)/2+203px)] custom-ml !mr-0 lg:py-12">
+                <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+150px)] xl:!ml-[calc((100vw-1340px)/2+218px)] custom-ml !mr-0">
                     <Swiper
                         slidesPerView={1.2}
                         spaceBetween={20}
@@ -25,7 +29,7 @@ const OurRecentWork = () => {
                         }}
                         loop={true}
                         modules={[Navigation]}
-                        className="mySwiper !py-8 sm:!py-12 !pl-3"
+                        className="mySwiper !py-8 lg:!py-14 md:!py-12 sm:!py-10 xl:!py-20 !pl-3"
                         onInit={(swiper) => {
                             swiper.params.navigation.prevEl = '.prev-button';
                             swiper.params.navigation.nextEl = '.next-button';
@@ -34,40 +38,53 @@ const OurRecentWork = () => {
                         }}
                         breakpoints={{
                             640: {
-                                slidesPerView: 2.5,
+                                slidesPerView: 1.45,
+                                spaceBetween: 30,
+                            },
+                            768: {
+                                slidesPerView: 1.74,
                                 spaceBetween: 30,
                             },
                             1024: {
-                                slidesPerView: 2.5,
+                                slidesPerView: 2,
                                 spaceBetween: 35,
                             },
                             1200: {
-                                slidesPerView: 3.25,
+                                slidesPerView: 2.2,
+                                spaceBetween: 35,
+                            },
+                            1280: {
+                                slidesPerView: 2.47,
                                 spaceBetween: 38,
                             },
                             1400: {
-                                slidesPerView: 3.42,
-                                spaceBetween: 41,
+                                slidesPerView: 2.60,
+                                spaceBetween: 43,
                             },
                         }}
                     >
-                        {WHAT_WE_DO_DATA_LIST.map((items, index) => (
+                        {OUR_RECENT_WORK_DATA_LIST.map((items, index) => (
                             <SwiperSlide key={index}>
-                                <div className="w-full h-full min-h-[192px] shadow-3xl bg-white p-[18px] rounded-[10px]">
-                                    <Icon iconName={items.icon} className={`w-[52px] h-12 rounded-[10px] justify-center items-center ${index === 0 ? "bg-off-cream" : index === 1 || index === 4 ? "bg-light-cream" : index === 2 || index === 5 ? "bg-light-sky" : "bg-medium-cream"}`} />
-                                    <p className='mt-3 mb-1.5 text-off-black font-bold text-base leading-5 tracking-[0.055em uppercase]'>{items.course}</p>
-                                    <p className='text-off-black opacity-65 font-light tracking-[0.02em] text-custom-xl leading-5'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                <div className="w-full h-full sm:min-h-[365px] shadow-3xl bg-white py-6 px-3.5 rounded-[10px]">
+                                    <div className="flex justify-between gap-1">
+                                        <img src={items.desktopImage} alt="" className='w-full max-w-[180px] sm:max-w-[286px]' />
+                                        <img src={items.mobileImage} alt="" className='w-full max-w-[60px] sm:max-w-[89px]' />
+                                    </div>
+                                    <div className="flex items-center justify-between mt-8 pt-px">
+                                        <p className='text-off-black font-bold text-xl sm:text-2xl leading-9'>{items.title}</p>
+                                        <button className='font-medium text-off-black text-xs sm:text-sm py-px px-3 border rounded-[100px] border-deep-gray'>View Work</button>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         ))}
                     </Swiper>
                 </div>
-                <div className="flex items-center w-fit gap-3.5 mx-auto mt-5 relative z-10">
+                <div className="flex items-center w-fit gap-3.5 md:-mt-4 mx-auto lg:absolute relative lg:left-[calc((100vw-1024px)/2+100px)] xl:left-[calc((100vw-1340px)/2+142px)] lg:bottom-2 xl:bottom-8 z-10">
                     <Icon iconName='arrow' className='prev-button cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
                     <Icon iconName='arrow' className='next-button cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>
             </div>
-            <div className="lg:top-[106px] top-14 absolute z-[1] bg-off-cream opacity-30 h-[450px] sm:h-[500px] lg:h-[578px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+57px)] lg:left-[calc((100vw-1024px)/2+40px)]"></div>
+            <div className="lg:top-2.5 top-[172px] md:top-[180px] absolute z-[1] bg-off-cream opacity-30 h-[673px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+124px)] lg:left-[calc((100vw-1024px)/2+80px)]"></div>
         </section>
     )
 }

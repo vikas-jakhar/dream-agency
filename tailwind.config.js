@@ -27,6 +27,7 @@ module.exports = {
         'light-cream': "#FFEED4",
         'light-sky': "#D4F0FF",
         'medium-cream': "#FFD4D4",
+        'deep-gray': "#343434",
       },
       fontSize: {
         'custom-xl': "15px",
