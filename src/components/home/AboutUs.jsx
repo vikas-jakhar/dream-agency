@@ -7,16 +7,16 @@ import Button from '../common/Button';
 
 const AboutUs = () => {
     return (
-        <div className='py-24'>
-            <div className="container py-24 relative">
-                <div className="flex flex-row items-center justify-between pt-24 pb-9 mt-1.5">
-                    <img src={meeting} alt="meeting" className='absolute -left-8 top-1/2 -translate-y-1/2' />
-                    <div className="ml-auto max-w-[515px] w-full">
-                        <Heading>About Us</Heading>
-                        <SecondHeading>Fake or <span>Real</span></SecondHeading>
-                        <Paragraph className='mt-5 pt-0.5 mb-2'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
-                        <Paragraph className='pt-px'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
-                        <Button className='mt-9 px-10'>Explore More</Button>
+        <div className='pt-2 pb-24 lg:pt-24'>
+            <div className="container pb-24 xl:py-24 relative">
+                <div className="flex items-center justify-between pt-24 pb-9 mt-1.5">
+                    <img src={meeting} alt="meeting" className='absolute w-9/12 sm:w-7/12 lg:w-1/2 xl:w-auto left-1/2 bottom-0 sm:-bottom-10 -translate-x-1/2 lg:translate-x-0 translate-y-1/2 lg:-left-3 xl:-left-8 lg:top-1/2 lg:-translate-y-1/2' />
+                    <div className="ml-auto lg:max-w-[515px] w-full relative z-10">
+                        <Heading className='text-center lg:text-left'>About Us</Heading>
+                        <SecondHeading className='text-center lg:text-left'>Fake or <span>Real</span></SecondHeading>
+                        <Paragraph className='md:mt-5 mt-2 pt-0.5 mb-2 text-center lg:text-left'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
+                        <Paragraph className='md:pt-px text-center lg:text-left'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
+                        <Button className='md:mt-9 mt-4 px-8 sm:px-10 block mx-auto lg:mx-0'>Explore More</Button>
                     </div>
                 </div>
             </div>
