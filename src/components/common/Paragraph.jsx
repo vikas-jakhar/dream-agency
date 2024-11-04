@@ -9,7 +9,7 @@ const Paragraph = ({
     const sizeReducer = (100 / reduceBelow) * maxFontSize;
 
     return (
-        <p {...props} style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }} className={`text-off-black opacity-65 font-normal leading-6 tracking-[0.02em] ${className}`}>
+        <p {...props} style={{ fontSize: `clamp(${minFontSize}px, ${sizeReducer}vw, ${maxFontSize}px)` }} className={`text-off-black opacity-65 font-normal leading-6 tracking-2xl ${className}`}>
             {children}
         </p>
     );

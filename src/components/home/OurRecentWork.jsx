@@ -84,7 +84,7 @@ const OurRecentWork = () => {
                     <Icon iconName='arrow' className='next-button cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>
             </div>
-            <div className="lg:top-2.5 top-[172px] md:top-[180px] absolute z-[1] bg-off-cream opacity-30 h-[673px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+124px)] lg:left-[calc((100vw-1024px)/2+80px)]"></div>
+            <div className="lg:top-2.5 top-[172px] md:top-[180px] absolute z-[1] bg-off-cream opacity-30 h-[590px] sm:h-[673px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+124px)] lg:left-[calc((100vw-1024px)/2+80px)]"></div>
         </section>
     )
 }

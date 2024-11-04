@@ -45,7 +45,12 @@ module.exports = {
       boxShadow: {
         '3xl': "0px 0px 9px 2px #0000000D",
         '4xl': "0px 0px 0px 2px #331B3B, 2px 2px 0px 2px #FFFFFF, 4px 4px 0px 2px #FDC221",
+        '5xl': "0px 0px 7px 1px #00000014",
       },
+      letterSpacing: {
+        'xl': "0.01em",
+        '2xl': "0.02em",
+      }
     },
   },
   plugins: [],

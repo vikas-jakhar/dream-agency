@@ -27,7 +27,7 @@ const Header = () => {
                 <nav className="flex items-center justify-between relative">
                     <div className={`${open ? "left-0 bg-white" : "-left-full"} flex items-center justify-center z-[90] lg:bg-transparent fixed flex-col w-full h-screen top-0 lg:relative lg:bg-none lg:flex-row gap-7 xl:gap-10 lg:h-fit lg:w-fit lg:left-auto duration-300 ease-linear`}>
                         {NAVBAR_DATA_LIST.map((item, index) => (
-                            <a key={index} href={item.url} aria-label={item.title} onClick={toggleOpen} className="text-off-black font-normal capitalize text-base tracking-[0.01em] duration-300 ease-linear w-fit relative after:absolute after:duration-300 after:ease-linear after:bottom-0.5 after:-left-px after:bg-off-yellow after:w-0 after:h-0.5 hover:after:w-5">
+                            <a key={index} href={item.url} aria-label={item.title} onClick={toggleOpen} className="text-off-black font-normal capitalize text-base tracking-xl duration-300 ease-linear w-fit relative after:absolute after:duration-300 after:ease-linear after:bottom-0.5 after:-left-px after:bg-off-yellow after:w-0 after:h-0.5 hover:after:w-5">
                                 {item.title}
                             </a>
                         ))}
@@ -40,7 +40,7 @@ const Header = () => {
                             ))}
                         </div>
                     </div>
-                    <a href="/" className="font-playfair text-2xl leading-7 text-off-black tracking-[0.01em] font-bold lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-1/2 lg:-translate-y-1/2">Dream Agency</a>
+                    <a href="/" className="font-playfair text-2xl leading-7 text-off-black tracking-xl font-bold lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-1/2 lg:-translate-y-1/2">Dream Agency</a>
                     <div className="flex gap-6 items-center">
                         <div className="sm:flex items-center gap-6 hidden">
                             {SOCIAL_MEDIA_DATA_LIST.map((items, index) => (
