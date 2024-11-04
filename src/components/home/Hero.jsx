@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../common/Header'
 import yellowEllipse from "../../assets/images/png/yellow-ellipse.png";
 import meeting from "../../assets/images/png/hero-meeting.png";

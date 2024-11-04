@@ -23,8 +23,13 @@ module.exports = {
         'off-black': "#331B3B",
         'off-yellow': "#FDC221",
         'off-blue': "#ECF7FF",
+        'off-cream': "#FFDED4",
+        'light-cream': "#FFEED4",
+        'light-sky': "#D4F0FF",
+        'medium-cream': "#FFD4D4",
       },
       fontSize: {
+        'custom-xl': "15px",
         'custom-2xl': "17px",
         'custom-40': "40px",
         'custom-3xl': "87px",
@@ -37,6 +42,7 @@ module.exports = {
         '3xl': "0px 0px 2px #FDC221",
       },
       boxShadow: {
+        '3xl': "0px 0px 9px 2px #0000000D",
         '4xl': "0px 0px 0px 2px #331B3B, 2px 2px 0px 2px #FFFFFF, 4px 4px 0px 2px #FDC221",
       },
     },
