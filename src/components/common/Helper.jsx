@@ -1,8 +1,8 @@
-import uiDesktop from "../../assets/images/png/ui-desktop.png";
-import uiMobile from "../../assets/images/png/ui-mobile.png";
-import goldDesktop from "../../assets/images/png/goldcrown-desktop.png";
-import goldMobile from "../../assets/images/png/goldcrown-mobile.png";
-import conciergeDesktop from "../../assets/images/png/concierge-desktop.png";
+import uiDesktop from "../../assets/images/webp/ui-desktop.webp";
+import uiMobile from "../../assets/images/webp/ui-mobile.webp";
+import goldDesktop from "../../assets/images/webp/goldcrown-desktop.webp";
+import goldMobile from "../../assets/images/webp/goldcrown-mobile.webp";
+import conciergeDesktop from "../../assets/images/webp/concierge-desktop.webp";
 export const NAVBAR_DATA_LIST = [
     { title: "Home", url: "#hero" },
     { title: "About us", url: "#About" },

@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { WHAT_WE_DO_DATA_LIST } from '../common/Helper';
 import Icon from '../common/Icons';
-import dottedEllipse from "../../assets/images/png/dotted-ellipse.png";
+import dottedEllipse from "../../assets/images/webp/dotted-ellipse.webp";
 
 const WhatWeDo = () => {
     return (

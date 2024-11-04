@@ -1,5 +1,5 @@
 import React from 'react'
-import meeting from "../../assets/images/png/about-meeting.png";
+import meeting from "../../assets/images/webp/about-meeting.webp";
 import Heading from '../common/Heading';
 import SecondHeading from '../common/SecondHeading';
 import Paragraph from '../common/Paragraph';

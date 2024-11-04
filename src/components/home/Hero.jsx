@@ -1,6 +1,6 @@
 import Header from '../common/Header'
-import yellowEllipse from "../../assets/images/png/yellow-ellipse.png";
-import meeting from "../../assets/images/png/hero-meeting.png";
+import yellowEllipse from "../../assets/images/webp/yellow-ellipse.webp";
+import meeting from "../../assets/images/webp/hero-meeting.webp";
 import Paragraph from '../common/Paragraph';
 import Button from '../common/Button';
 
@@ -8,7 +8,7 @@ const Hero = () => {
     return (
         <section className='relative max-w-[1920px] mx-auto w-full'>
             <Header />
-            <div className="container relative z-10">
+            <div className="container relative z-10 pt-5 lg:pt-0">
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-7 xl:gap-2">
                     <div className="max-w-[515px] w-full">
                         <h2 className='xl:text-custom-4xl text-center lg:text-left sm:mb-5 mb-3 lg:mb-7 text-custom-3xl leading-10 sm:text-6xl xl:leading-custom-2xl text-off-black font-light -tracking-xl'><span className='font-bold'>We Help you</span> to grow your <span className='relative after:absolute after:left-0 after:w-[96%] after:h-2 sm:after:h-5 after:bg-off-yellow after:bottom-4 xl:after:bottom-7 after:-z-10'>Business</span></h2>
