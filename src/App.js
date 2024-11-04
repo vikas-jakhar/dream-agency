@@ -1,4 +1,5 @@
 import './App.css';
+import ScrollToTop from './components/common/ScrollToTop';
 import AboutUs from './components/home/AboutUs';
 import Hero from './components/home/Hero';
 import OurRecentWork from './components/home/OurRecentWork';
@@ -11,6 +12,7 @@ function App() {
       <WhatWeDo />
       <AboutUs />
       <OurRecentWork />
+      <ScrollToTop />
     </div>
   );
 }

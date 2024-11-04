@@ -31,8 +31,8 @@ module.exports = {
       fontSize: {
         'custom-xl': "15px",
         'custom-2xl': "17px",
-        'custom-40': "40px",
-        'custom-3xl': "87px",
+        'custom-3xl': "40px",
+        'custom-4xl': "87px",
       },
       lineHeight: {
         'custom-xl': "51.2px",

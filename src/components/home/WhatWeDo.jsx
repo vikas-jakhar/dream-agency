@@ -10,7 +10,7 @@ import dottedEllipse from "../../assets/images/png/dotted-ellipse.png";
 
 const WhatWeDo = () => {
     return (
-        <div className='relative pt-20 sm:pt-24'>
+        <section className='relative pt-20 sm:pt-24'>
             <div className="max-w-[1920px] mx-auto w-full relative lg:pt-24 mt-1.5">
                 <div className="container relative z-10">
                     <Heading className='text-center'>What We Do</Heading>
@@ -70,7 +70,7 @@ const WhatWeDo = () => {
                 <img src={dottedEllipse} alt="dottedEllipse" className='right-0 absolute -bottom-14 hidden sm:flex lg:-bottom-24' />
             </div>
             <div className="lg:top-[106px] top-14 absolute z-[1] bg-off-blue h-[450px] sm:h-[500px] lg:h-[578px]  lg:rounded-tr-[400px] md:rounded-tr-[300px] sm:rounded-tr-[200px] w-full xl:right-[calc((100vw-1340px)/2+57px)] lg:right-[calc((100vw-1024px)/2+40px)]"></div>
-        </div>
+        </section>
     )
 }
 

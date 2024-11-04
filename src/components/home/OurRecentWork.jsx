@@ -9,7 +9,7 @@ import Icon from '../common/Icons';
 
 const OurRecentWork = () => {
     return (
-        <div className='relative pt-20 sm:pt-24'>
+        <section className='relative pt-20 sm:pt-24'>
             <div className="max-w-[1920px] mx-auto w-full relative lg:pt-24 mt-1.5">
                 <div className="container relative z-10">
                     <Heading className='text-center'>What We Do</Heading>
@@ -68,7 +68,7 @@ const OurRecentWork = () => {
                 </div>
             </div>
             <div className="lg:top-[106px] top-14 absolute z-[1] bg-off-cream opacity-30 h-[450px] sm:h-[500px] lg:h-[578px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+57px)] lg:left-[calc((100vw-1024px)/2+40px)]"></div>
-        </div>
+        </section>
     )
 }
 
