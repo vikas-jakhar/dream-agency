@@ -17,7 +17,7 @@ const OurRecentWork = () => {
                         <Heading className='text-center lg:text-left sm:mt-8 lg:mt-0'>Our Recent Work</Heading>
                         <SecondHeading className='text-center lg:text-left'>By Our <span>Experts</span></SecondHeading>
                     </div>
-                    <Paragraph className='max-w-[515px] w-full text-center lg:text-left mt-2 lg:mt-0'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
+                    <Paragraph className='max-w-[515px] w-full text-center lg:text-left mt-2 !opacity-100 lg:mt-0'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
                 </div>
                 <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+150px)] xl:!ml-[calc((100vw-1340px)/2+242px)] custom-ml !mr-0">
                     <Swiper
