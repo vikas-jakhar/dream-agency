@@ -22,7 +22,7 @@ const Navbar = () => {
     }, [open]);
 
     return (
-        <div className="relative z-50 py-5 md:py-8">
+        <div className="relative z-50 py-5 lg:py-8">
             <div className="container lg:py-0.5">
                 <nav className="flex items-center justify-between relative">
                     <div className={`${open ? "left-0 bg-white" : "-left-full"} flex items-center justify-center z-[90] lg:bg-transparent fixed flex-col w-full h-screen top-0 lg:relative lg:bg-none lg:flex-row gap-7 xl:gap-10 lg:h-fit lg:w-fit lg:left-auto duration-300 ease-linear`}>

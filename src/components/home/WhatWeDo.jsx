@@ -16,11 +16,11 @@ const WhatWeDo = () => {
                     <Heading className='text-center'>What We Do</Heading>
                     <SecondHeading className='text-center'>For Your <span>Business</span></SecondHeading>
                 </div>
-                <div className="flex items-center w-fit gap-3.5 mx-auto mt-5 relative z-10 lg:absolute lg:bottom-24 lg:!ml-5 lg:left-[calc((100vw-1024px)/2)] xl:left-[calc((100vw-1340px)/2+90px)] custom-left">
+                <div className="lg:flex items-center w-fit gap-3.5 mx-auto mt-5 relative hidden z-10 lg:absolute lg:bottom-24 lg:!ml-5 lg:left-[calc((100vw-1024px)/2)] xl:left-[calc((100vw-1340px)/2+90px)] custom-left">
                     <Icon iconName='arrow' className='prevButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black hover:opacity-100 cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
                     <Icon iconName='arrow' className='nextButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>
-                <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+143px)] xl:!ml-[calc((100vw-1340px)/2+225px)] custom-ml !mr-0 lg:py-12">
+                <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+143px)] xl:!ml-[calc((100vw-1340px)/2+225px)] custom-ml !mr-0 lg:pb-12 xl:pt-12">
                     <Swiper
                         slidesPerView={1.2}
                         spaceBetween={20}
@@ -67,9 +67,13 @@ const WhatWeDo = () => {
                         ))}
                     </Swiper>
                 </div>
-                <img src={dottedEllipse} alt="dottedEllipse" className='right-0 absolute -bottom-14 hidden sm:flex lg:-bottom-[70px]' />
+                <div className="flex items-center w-fit gap-3.5 mx-auto relative z-10 -mt-5 lg:hidden">
+                    <Icon iconName='arrow' className='prevButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black hover:opacity-100 cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
+                    <Icon iconName='arrow' className='nextButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
+                </div>
+                <img src={dottedEllipse} alt="dottedEllipse" className='right-0 absolute -bottom-14 hidden lg:flex lg:-bottom-[70px]' />
             </div>
-            <div className="lg:top-[106px] top-14 absolute z-[1] bg-off-blue h-[450px] sm:h-[500px] lg:h-[578px]  lg:rounded-tr-[400px] md:rounded-tr-[300px] sm:rounded-tr-[200px] w-full xl:right-[calc((100vw-1340px)/2+57px)] lg:right-[calc((100vw-1024px)/2+40px)]"></div>
+            <div className="xl:top-[106px] top-14 lg:top-[140px] absolute z-[1] bg-off-blue h-[450px] sm:h-[500px] md:h-[470px] xl:h-[578px] lg:rounded-tr-[400px] md:rounded-tr-[300px] sm:rounded-tr-[200px] w-full xl:right-[calc((100vw-1340px)/2+57px)] lg:right-[calc((100vw-1024px)/2+40px)]"></div>
         </section>
     )
 }
