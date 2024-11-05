@@ -44,8 +44,8 @@ const Icon = ({ iconName = '', className = '' }) => {
             </svg>
         ),
         arrow: (
-            <svg width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L9 8.34426L1 15" stroke="black" strokeWidth="2" strokeLinecap="round" />
+            <svg className="stroke-black group-hover:stroke-white duration-300 ease-linear" width="11" height="16" viewBox="0 0 11 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L9 8.34426L1 15" strokeWidth="2" strokeLinecap="round" />
             </svg>
         ),
         world: (

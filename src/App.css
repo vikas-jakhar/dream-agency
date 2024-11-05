@@ -4,6 +4,22 @@
     font-family: "Hind Vadodara", sans-serif;
 }
 
+::-webkit-scrollbar {
+    @apply w-2
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-light-sky
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-off-black
+}
+
+.scroll-button:hover .scroll-icon {
+    transform: rotateY(180deg);
+}
+
 @media (min-width:1400px) {
     .meeting-image {
         @apply -mr-11

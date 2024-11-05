@@ -80,8 +80,8 @@ const OurRecentWork = () => {
                     </Swiper>
                 </div>
                 <div className="flex items-center w-fit gap-3.5 md:-mt-4 mx-auto lg:absolute relative lg:left-[calc((100vw-1024px)/2+100px)] xl:left-[calc((100vw-1340px)/2+142px)] lg:bottom-2 xl:bottom-8 z-10 work-custom-left">
-                    <Icon iconName='arrow' className='prev-button cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
-                    <Icon iconName='arrow' className='next-button cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
+                    <Icon iconName='arrow' className='prev-button group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black hover:opacity-100 cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
+                    <Icon iconName='arrow' className='next-button group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>
             </div>
             <div className="lg:top-2.5 top-[172px] md:top-[180px] absolute z-[1] bg-off-cream opacity-30 h-[590px] sm:h-[673px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+124px)] lg:left-[calc((100vw-1024px)/2+80px)]"></div>

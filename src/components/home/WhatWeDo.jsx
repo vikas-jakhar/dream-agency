@@ -17,8 +17,8 @@ const WhatWeDo = () => {
                     <SecondHeading className='text-center'>For Your <span>Business</span></SecondHeading>
                 </div>
                 <div className="flex items-center w-fit gap-3.5 mx-auto mt-5 relative z-10 lg:absolute lg:bottom-24 lg:!ml-5 lg:left-[calc((100vw-1024px)/2)] xl:left-[calc((100vw-1340px)/2+90px)] custom-left">
-                    <Icon iconName='arrow' className='prevButton cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
-                    <Icon iconName='arrow' className='nextButton cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
+                    <Icon iconName='arrow' className='prevButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black hover:opacity-100 cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
+                    <Icon iconName='arrow' className='nextButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>
                 <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+143px)] xl:!ml-[calc((100vw-1340px)/2+203px)] custom-ml !mr-0 lg:py-12">
                     <Swiper
