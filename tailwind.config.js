@@ -36,6 +36,8 @@ module.exports = {
         'custom-4xl': "87px",
       },
       lineHeight: {
+        'custom-lg': "21.79px",
+        'custom-sm': "25.50px",
         'custom-xl': "51.2px",
         'custom-2xl': "86.83px",
       },

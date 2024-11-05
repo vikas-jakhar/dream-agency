@@ -20,7 +20,7 @@ const WhatWeDo = () => {
                     <Icon iconName='arrow' className='prevButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black hover:opacity-100 cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
                     <Icon iconName='arrow' className='nextButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>
-                <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+143px)] xl:!ml-[calc((100vw-1340px)/2+203px)] custom-ml !mr-0 lg:py-12">
+                <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+143px)] xl:!ml-[calc((100vw-1340px)/2+225px)] custom-ml !mr-0 lg:py-12">
                     <Swiper
                         slidesPerView={1.2}
                         spaceBetween={20}
@@ -60,14 +60,14 @@ const WhatWeDo = () => {
                             <SwiperSlide key={index}>
                                 <div className="w-full h-full min-h-[192px] shadow-3xl bg-white p-[18px] rounded-[10px]">
                                     <Icon iconName={items.icon} className={`w-[52px] h-12 rounded-[10px] justify-center items-center ${index === 0 ? "bg-off-cream" : index === 1 || index === 4 ? "bg-light-cream" : index === 2 || index === 5 ? "bg-light-sky" : "bg-medium-cream"}`} />
-                                    <p className='mt-3 mb-1.5 text-off-black font-bold text-base leading-5 tracking-[0.055em uppercase]'>{items.course}</p>
-                                    <p className='text-off-black opacity-65 font-light tracking-2xl text-custom-xl leading-5'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <p className='mt-3 mb-1.5 text-off-black font-bold text-base uppercase leading-custom-lg tracking-[0.055em]'>{items.course}</p>
+                                    <p className='text-off-black opacity-65 font-light tracking-2xl text-custom-xl leading-custom-lg'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                                 </div>
                             </SwiperSlide>
                         ))}
                     </Swiper>
                 </div>
-                <img src={dottedEllipse} alt="dottedEllipse" className='right-0 absolute -bottom-14 hidden sm:flex lg:-bottom-24' />
+                <img src={dottedEllipse} alt="dottedEllipse" className='right-0 absolute -bottom-14 hidden sm:flex lg:-bottom-[70px]' />
             </div>
             <div className="lg:top-[106px] top-14 absolute z-[1] bg-off-blue h-[450px] sm:h-[500px] lg:h-[578px]  lg:rounded-tr-[400px] md:rounded-tr-[300px] sm:rounded-tr-[200px] w-full xl:right-[calc((100vw-1340px)/2+57px)] lg:right-[calc((100vw-1024px)/2+40px)]"></div>
         </section>

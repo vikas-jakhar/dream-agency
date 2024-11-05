@@ -17,10 +17,10 @@ const GetInTouch = () => {
                 <div className="flex justify-between gap-10 lg:pr-1.5 flex-col lg:flex-row">
                     <div className="lg:max-w-[439px] w-full">
                         <h2 className='font-playfair text-4xl tracking-xl text-white text-center lg:text-left'>Dream Agency</h2>
-                        <p className='tracking-2xl text-white font-normal text-base mt-3.5 pt-px text-center lg:text-left'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-                        <p className='tracking-2xl font-semibold text-base uppercase text-white mt-4 md:mt-7 pb-px text-center lg:text-left'>Get In Touch</p>
-                        <form onSubmit={handleSubmit} name='emailFrom' method="get" className='border pl-3 border-white w-fit h-[52px] flex items-center mt-3.5 mx-auto lg:mx-0'>
-                            <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder='Enter Your Email' className='text-white max-w-[263px] w-full bg-transparent placeholder:text-white placeholder:uppercase outline-none font-normal text-base tracking-2xl' required />
+                        <p className='tracking-2xl text-white font-normal text-base sm:leading-custom-sm mt-3.5 pt-px text-center lg:text-left'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                        <p className='tracking-2xl font-semibold text-base sm:leading-custom-sm uppercase text-white mt-4 md:mt-7 pb-px text-center lg:text-left'>Get In Touch</p>
+                        <form onSubmit={handleSubmit} name='emailFrom' method="get" className='border pl-3 border-white max-w-[406px] w-full h-[52px] flex items-center mt-3.5 mx-auto lg:mx-0'>
+                            <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder='Enter Your Email' className='text-white py-2 max-w-[263px] w-full bg-transparent placeholder:text-white placeholder:uppercase outline-none font-normal text-base tracking-2xl' required />
                             <button className='bg-white border border-white uppercase h-[52px] w-[143px] duration-300 ease-linear hover:bg-transparent hover:text-white text-base tracking-2xl font-semibold'>Send</button>
                         </form>
                         <div className={`${isSubmitted === true ? "right-[3%]" : "-right-full"} absolute bg-white py-5 px-5 text-nowrap shadow-5xl justify-center max-w-[400px] rounded-3xl w-1/2 border-b-2 border-green-600 flex items-center duration-300 ease-linear cursor-pointer bottom-[40%] lg:bottom-[15%] xl:bottom-[30%]`}>

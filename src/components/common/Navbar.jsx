@@ -31,7 +31,7 @@ const Navbar = () => {
                                 {item.title}
                             </a>
                         ))}
-                        <div className="flex items-center gap-6 sm:hidden">
+                        <div className="flex items-center gap-3.5 sm:hidden">
                             {SOCIAL_MEDIA_DATA_LIST.map((items, index) => (
                                 <a key={index} href={items.url} target='_blank' rel="noreferrer" className='w-fit relative group'>
                                     <Icon iconName={items.icon} className='top-1/2 left-1/2 absolute -translate-x-1/2 -translate-y-1/2 z-10' />
@@ -42,7 +42,7 @@ const Navbar = () => {
                     </div>
                     <a href="/" className="font-playfair text-2xl leading-7 text-off-black tracking-xl font-bold lg:absolute lg:left-1/2 lg:-translate-x-1/2 lg:top-1/2 lg:-translate-y-1/2">Dream Agency</a>
                     <div className="flex gap-6 items-center">
-                        <div className="sm:flex items-center gap-6 hidden">
+                        <div className="sm:flex items-center gap-3.5 hidden">
                             {SOCIAL_MEDIA_DATA_LIST.map((items, index) => (
                                 <a key={index} href={items.url} target='_blank' rel="noreferrer" className='w-fit relative group'>
                                     <Icon iconName={items.icon} className='top-1/2 left-1/2 absolute -translate-x-1/2 -translate-y-1/2 z-10' />
@@ -54,7 +54,7 @@ const Navbar = () => {
                             {[0, 1, 2].map((index) => (
                                 <span key={index} className={`left-0 absolute duration-300 ease-linear bg-off-black h-1 rounded w-full ${index === 0 && open ? "top-1/2 -translate-y-1/2 rotate-45" : index === 0 ? "top-0" : ""} ${index === 1 && open ? "!-left-full opacity-0 top-1/2 -translate-y-1/2" : index === 1 ? "top-1/2 -translate-y-1/2" : ""} ${index === 2 && open ? "top-1/2 -translate-y-1/2 -rotate-45" : "bottom-0"}`}></span>
                             ))}
-                        </div>   
+                        </div>
                     </div>
                 </nav>
             </div>

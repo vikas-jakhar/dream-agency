@@ -19,7 +19,7 @@ const OurRecentWork = () => {
                     </div>
                     <Paragraph className='max-w-[515px] w-full text-center lg:text-left mt-2 lg:mt-0'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
                 </div>
-                <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+150px)] xl:!ml-[calc((100vw-1340px)/2+218px)] custom-ml !mr-0">
+                <div className="relative z-10 !ml-5 lg:!ml-[calc((100vw-1024px)/2+150px)] xl:!ml-[calc((100vw-1340px)/2+242px)] custom-ml !mr-0">
                     <Swiper
                         slidesPerView={1.2}
                         spaceBetween={20}
@@ -58,7 +58,7 @@ const OurRecentWork = () => {
                                 spaceBetween: 38,
                             },
                             1400: {
-                                slidesPerView: 2.60,
+                                slidesPerView: 2.506,
                                 spaceBetween: 43,
                             },
                         }}
@@ -70,8 +70,8 @@ const OurRecentWork = () => {
                                         <img src={items.desktopImage} alt="" className='w-full max-w-[180px] sm:max-w-[286px]' />
                                         <img src={items.mobileImage} alt="" className='w-full max-w-[60px] sm:max-w-[89px]' />
                                     </div>
-                                    <div className="flex items-center justify-between mt-8 pt-px">
-                                        <p className='text-off-black font-bold text-xl sm:text-2xl leading-9'>{items.title}</p>
+                                    <div className="flex items-center justify-between mt-8 pt-px md:pl-4 md:pr-2">
+                                        <p className='text-off-black font-bold text-xl sm:text-2xl sm:leading-9'>{items.title}</p>
                                         <button className='font-medium text-off-black text-xs sm:text-sm py-px px-3 border rounded-[100px] border-deep-gray'>View Work</button>
                                     </div>
                                 </div>
@@ -79,12 +79,12 @@ const OurRecentWork = () => {
                         ))}
                     </Swiper>
                 </div>
-                <div className="flex items-center w-fit gap-3.5 md:-mt-4 mx-auto lg:absolute relative lg:left-[calc((100vw-1024px)/2+100px)] xl:left-[calc((100vw-1340px)/2+142px)] lg:bottom-2 xl:bottom-8 z-10 work-custom-left">
+                <div className="flex items-center w-fit gap-3.5 md:-mt-4 mx-auto lg:absolute relative lg:left-[calc((100vw-1024px)/2+100px)] xl:left-[calc((100vw-1340px)/2+179px)] lg:bottom-2 xl:bottom-8 z-10 work-custom-left">
                     <Icon iconName='arrow' className='prev-button group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black hover:opacity-100 cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
                     <Icon iconName='arrow' className='next-button group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>
             </div>
-            <div className="lg:top-2.5 top-[172px] md:top-[180px] absolute z-[1] bg-off-cream opacity-30 h-[590px] sm:h-[673px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+124px)] lg:left-[calc((100vw-1024px)/2+80px)]"></div>
+            <div className="lg:top-2.5 top-[172px] md:top-[180px] absolute z-[1] bg-off-cream opacity-30 h-[590px] sm:h-[673px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+144px)] lg:left-[calc((100vw-1024px)/2+80px)]"></div>
         </section>
     )
 }
