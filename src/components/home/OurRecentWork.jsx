@@ -61,6 +61,14 @@ const OurRecentWork = () => {
                                 slidesPerView: 2.506,
                                 spaceBetween: 43,
                             },
+                            1536: {
+                                slidesPerView: 2.7,
+                                spaceBetween: 42,
+                            },
+                            1920: {
+                                slidesPerView: 3.19,
+                                spaceBetween: 44,
+                            },
                         }}
                     >
                         {OUR_RECENT_WORK_DATA_LIST.map((items, index) => (
