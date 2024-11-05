@@ -54,7 +54,7 @@ const Navbar = () => {
                             {[0, 1, 2].map((index) => (
                                 <span key={index} className={`left-0 absolute duration-300 ease-linear bg-off-black h-1 rounded w-full ${index === 0 && open ? "top-1/2 -translate-y-1/2 rotate-45" : index === 0 ? "top-0" : ""} ${index === 1 && open ? "!-left-full opacity-0 top-1/2 -translate-y-1/2" : index === 1 ? "top-1/2 -translate-y-1/2" : ""} ${index === 2 && open ? "top-1/2 -translate-y-1/2 -rotate-45" : "bottom-0"}`}></span>
                             ))}
-                        </div>
+                        </div>   
                     </div>
                 </nav>
             </div>
