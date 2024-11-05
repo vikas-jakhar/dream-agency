@@ -39,6 +39,9 @@ const WhatWeDo = () => {
                         }}
                         breakpoints={{
                             640: {
+                                slidesPerView: 2.1,
+                            },
+                            768: {
                                 slidesPerView: 2.5,
                                 spaceBetween: 30,
                             },
@@ -73,7 +76,7 @@ const WhatWeDo = () => {
                 </div>
                 <img src={dottedEllipse} alt="dottedEllipse" className='right-0 absolute -bottom-14 hidden lg:flex lg:-bottom-[70px]' />
             </div>
-            <div className="xl:top-[106px] top-14 lg:top-[140px] absolute z-[1] bg-off-blue h-[450px] sm:h-[500px] md:h-[470px] xl:h-[578px] lg:rounded-tr-[400px] md:rounded-tr-[300px] sm:rounded-tr-[200px] w-full xl:right-[calc((100vw-1340px)/2+57px)] lg:right-[calc((100vw-1024px)/2+40px)]"></div>
+            <div className="xl:top-[106px] top-14 lg:top-[140px] absolute z-[1] bg-off-blue h-[410px] sm:h-[460px] md:h-[470px] xl:h-[578px] lg:rounded-tr-[400px] md:rounded-tr-[300px] sm:rounded-tr-[200px] w-full xl:right-[calc((100vw-1340px)/2+57px)] lg:right-[calc((100vw-1024px)/2+40px)]"></div>
         </section>
     )
 }

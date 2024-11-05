@@ -10,11 +10,11 @@ import Paragraph from '../common/Paragraph';
 
 const OurRecentWork = () => {
     return (
-        <section className='relative pt-24 lg:pt-10'>
+        <section className='relative pt-24 lg:pt-10 mt-10 sm:mt-14'>
             <div className="max-w-[1920px] pt-24 lg:pt-0 mx-auto w-full relative">
                 <div className="container mt-3 relative z-10 flex-col lg:flex-row flex items-center justify-between">
                     <div className="flex flex-col">
-                        <Heading className='text-center lg:text-left'>Our Recent Work</Heading>
+                        <Heading className='text-center lg:text-left sm:mt-8 lg:mt-0'>Our Recent Work</Heading>
                         <SecondHeading className='text-center lg:text-left'>By Our <span>Experts</span></SecondHeading>
                     </div>
                     <Paragraph className='max-w-[515px] w-full text-center lg:text-left mt-2 lg:mt-0'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</Paragraph>
@@ -84,7 +84,7 @@ const OurRecentWork = () => {
                     <Icon iconName='arrow' className='next-button group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>
             </div>
-            <div className="lg:top-2.5 top-[172px] md:top-[180px] absolute z-[1] bg-off-cream opacity-30 h-[590px] sm:h-[673px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+144px)] lg:left-[calc((100vw-1024px)/2+80px)]"></div>
+            <div className="lg:top-2.5 top-[172px] md:top-[180px] absolute z-[1] bg-off-cream opacity-30 h-[600px] sm:h-[745px] lg:h-[673px]  lg:rounded-tl-[400px] md:rounded-tl-[300px] sm:rounded-tl-[200px] w-full xl:left-[calc((100vw-1340px)/2+144px)] lg:left-[calc((100vw-1024px)/2+80px)]"></div>
         </section>
     )
 }
