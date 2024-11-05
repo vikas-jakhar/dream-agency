@@ -10,7 +10,7 @@ import Paragraph from '../common/Paragraph';
 
 const OurRecentWork = () => {
     return (
-        <section className='relative pt-24 lg:pt-10 mt-10 sm:mt-14'>
+        <section className='relative pt-24 lg:pt-10 mt-10 sm:mt-14 lg:mt-0'>
             <div className="max-w-[1920px] pt-24 lg:pt-0 mx-auto w-full relative">
                 <div className="container mt-3 relative z-10 flex-col lg:flex-row flex items-center justify-between">
                     <div className="flex flex-col">
