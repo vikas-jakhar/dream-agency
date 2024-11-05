@@ -36,10 +36,10 @@ module.exports = {
         'custom-4xl': "87px",
       },
       lineHeight: {
-        'custom-lg': "21.79px",
-        'custom-sm': "25.50px",
-        'custom-xl': "51.2px",
-        'custom-2xl': "86.83px",
+        'custom-xl': "21.79px",
+        'custom-2xl': "25.50px",
+        'custom-3xl': "51.2px",
+        'custom-4xl': "86.83px",
       },
       dropShadow: {
         '3xl': "0px 0px 2px #FDC221",

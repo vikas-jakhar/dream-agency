@@ -63,8 +63,8 @@ const WhatWeDo = () => {
                             <SwiperSlide key={index}>
                                 <div className="w-full h-full min-h-[192px] shadow-3xl duration-300 ease-linear hover:shadow-md hover:shadow-off-black bg-white p-[18px] rounded-[10px]">
                                     <Icon iconName={items.icon} className={`w-[52px] h-12 rounded-[10px] justify-center items-center ${index === 0 ? "bg-off-cream" : index === 1 || index === 4 ? "bg-light-cream" : index === 2 || index === 5 ? "bg-light-sky" : "bg-medium-cream"}`} />
-                                    <p className='mt-3 mb-1.5 text-off-black font-bold text-base uppercase leading-custom-lg tracking-[0.055em]'>{items.course}</p>
-                                    <p className='text-off-black opacity-65 font-light tracking-2xl text-custom-xl leading-custom-lg'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <p className='mt-3 mb-1.5 text-off-black font-bold text-base uppercase leading-custom-xl tracking-[0.055em]'>{items.course}</p>
+                                    <p className='text-off-black opacity-65 font-light tracking-2xl text-custom-xl leading-custom-xl'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                                 </div>
                             </SwiperSlide>
                         ))}
