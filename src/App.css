@@ -20,6 +20,10 @@
     transform: rotateY(180deg);
 }
 
+.menu-link:hover {
+    -webkit-text-stroke: 0.8px #331B3B;
+}
+
 @media (min-width:1400px) {
     .meeting-image {
         @apply -mr-11

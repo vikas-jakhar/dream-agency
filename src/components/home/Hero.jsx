@@ -1,13 +1,13 @@
-import Header from '../common/Header'
 import yellowEllipse from "../../assets/images/webp/yellow-ellipse.webp";
 import meeting from "../../assets/images/webp/hero-meeting.webp";
 import Paragraph from '../common/Paragraph';
 import Button from '../common/Button';
+import Navbar from "../common/Navbar";
 
 const Hero = () => {
     return (
         <section className='relative max-w-[1920px] mx-auto w-full'>
-            <Header />
+            <Navbar />
             <div className="container relative z-10 pt-5 lg:pt-0">
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-7 xl:gap-2">
                     <div className="max-w-[515px] w-full">
