@@ -23,8 +23,8 @@ const GetInTouch = () => {
                             <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder='Enter Your Email' className='text-white py-2 max-w-[263px] w-full bg-transparent placeholder:text-white placeholder:uppercase outline-none font-normal text-base tracking-2xl' required />
                             <button className='bg-white border border-white uppercase h-[52px] w-[143px] duration-300 ease-linear hover:bg-transparent hover:text-white text-base tracking-2xl font-semibold'>Send</button>
                         </form>
-                        <div className={`${isSubmitted === true ? "right-[3%]" : "-right-full"} absolute bg-white py-5 px-5 text-nowrap shadow-5xl justify-center max-w-[400px] rounded-3xl w-1/2 border-b-2 border-green-600 flex items-center duration-300 ease-linear cursor-pointer bottom-[40%] lg:bottom-[15%] xl:bottom-[30%]`}>
-                            <p className='font-semibold text-off-black text-base sm:text-2xl'>Send successfully</p>
+                        <div className={`${isSubmitted === true ? "right-[3%]" : "-right-full"} absolute bg-white py-5 px-5 text-nowrap shadow-5xl justify-center max-w-[250px] rounded-3xl w-1/2 border-b-2 border-green-600 flex items-center duration-300 ease-linear cursor-pointer bottom-[40%] lg:bottom-[15%] xl:bottom-[30%]`}>
+                            <p className='font-semibold text-off-black text-base'>Send successfully</p>
                         </div>
                     </div>
                     <div className="xl:mr-24 lg:mr-10 max-w-[484px] mx-auto w-full mt-2.5">
