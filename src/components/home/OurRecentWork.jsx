@@ -80,7 +80,7 @@ const OurRecentWork = () => {
                                     </div>
                                     <div className="flex items-center justify-between mt-8 pt-px md:pl-4 md:pr-2">
                                         <p className='text-off-black font-bold text-xl sm:text-2xl sm:leading-9'>{items.title}</p>
-                                        <button className='font-medium text-off-black text-xs sm:text-sm py-px px-3 border rounded-[100px] border-deep-gray'>View Work</button>
+                                        <button className='font-medium text-off-black text-xs sm:text-sm py-px px-3 border rounded-[100px] border-deep-gray duration-300 ease-linear hover:text-white hover:bg-off-black'>View Work</button>
                                     </div>
                                 </div>
                             </SwiperSlide>
