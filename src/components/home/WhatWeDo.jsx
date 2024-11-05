@@ -70,7 +70,7 @@ const WhatWeDo = () => {
                         ))}
                     </Swiper>
                 </div>
-                <div className="flex items-center w-fit gap-3.5 mx-auto relative z-10 -mt-5 lg:hidden">
+                <div className="flex items-center w-fit gap-3.5 mx-auto relative z-10 -mt-2 sm:-mt-5 lg:hidden">
                     <Icon iconName='arrow' className='prevButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black hover:opacity-100 cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center opacity-[33%] rotate-180 border-2 border-black' />
                     <Icon iconName='arrow' className='nextButton group duration-300 ease-linear hover:border-off-yellow hover:bg-off-black cursor-pointer w-[35px] h-[34px] rounded-full justify-center items-center border-2 border-black' />
                 </div>
