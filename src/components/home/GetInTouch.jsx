@@ -16,7 +16,7 @@ const GetInTouch = () => {
             <div className="container sm:pt-0.5 sm:pb-3">
                 <div className="flex justify-between gap-10 lg:pr-1.5 flex-col lg:flex-row">
                     <div className="lg:max-w-[439px] w-full">
-                        <h2 className='font-playfair text-4xl tracking-xl text-white text-center lg:text-left'>Dream Agency</h2>
+                        <h2 className='font-playfair text-4xl tracking-xl text-white font-medium text-center lg:text-left'>Dream Agency</h2>
                         <p className='tracking-2xl text-white font-normal text-base sm:leading-custom-2xl mt-3.5 pt-px text-center lg:text-left'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                         <p className='tracking-2xl font-semibold text-base sm:leading-custom-2xl uppercase text-white mt-4 md:mt-7 pb-px text-center lg:text-left'>Get In Touch</p>
                         <form onSubmit={handleSubmit} name='emailFrom' method="get" className='border pl-3 border-white max-w-[406px] w-full h-[52px] flex items-center mt-3.5 mx-auto lg:mx-0'>

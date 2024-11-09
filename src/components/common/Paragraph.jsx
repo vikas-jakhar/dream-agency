@@ -1,7 +1,7 @@
 const Paragraph = ({
     reduceBelow = 768,
     maxFontSize = 17,
-    minFontSize = 14,
+    minFontSize = 15,
     className = '',
     children,
     ...props
